@@ -1,7 +1,6 @@
 # PID Controller Simulation in Simulink
 
-A MATLAB/Simulink implementation of a closed-loop control system utilizing a Parallel PID (Proportional-Integral-Derivative) controller to stabilize a third-order dynamic plant. This repository contains the Simulink model and performance analysis configurations.
-
+A MATLAB/Simulink implementation of a closed-loop control system utilizing a Parallel PID (Proportional-Integral-Derivative) controller to stabilize a third-order dynamic plant. 
 <img width="1707" height="628" alt="image" src="https://github.com/user-attachments/assets/e0d7f274-d299-4db2-9f41-9e02301db02a" />
 
 
