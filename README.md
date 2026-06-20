@@ -13,7 +13,7 @@ The simulation models a standard negative feedback control loop consisting of th
 1. **Input Signal:** A step input $u(t)$ acting as the reference command/setpoint.
 2. **Error Detection:** A summing junction that calculates the instantaneous error signal, $e(t) = u(t) - y(t)$, where $y(t)$ is the plant output.
 3. **PID Controller:** Processes the error signal through three parallel branches:
-   * **Proportional Path:** Multiplies the error signal by a static gain block. *(Note: In the model diagram layout, the proportional and integral gain labels are inverted—the integrator path $\frac{1}{s}$ is routed to the block labeled $K_p$, while the direct proportional path is routed to $K_g$. Functionally, these gains scale the system as $K_i = 5$ and $K_p = 5$ respectively).*
+   * **Proportional Path:** Multiplies the error signal by a static gain block. *(Note: In the model diagram layout, the proportional and integral gain labels are inverted—the integrator path $\frac{1}{s}$ is routed to the block labeled $K_p$, while the direct proportional path is routed to K_g. Functionally, these gains scale the system as K_i = 5 and K_p = 5 respectively).*
    * **Integral Path:** Integrates the error ($\frac{1}{s}$) to eliminate steady-state error, scaled by a gain of 5.
    * **Derivative Path:** Computes the rate of change of the error ($\frac{\Delta u}{\Delta t}$) to provide predictive damping, scaled by a gain $K_d = 1$.
 4. **Plant Dynamics:** A third-order Linear Time-Invariant (LTI) continuous-time system defined by the transfer function:
