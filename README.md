@@ -38,13 +38,3 @@ The plot below shows the closed-loop step response captured by the Scope block, 
 <img width="1919" height="1018" alt="Screenshot 2026-06-03 140137" src="https://github.com/user-attachments/assets/d5af0ace-bbf2-4450-a4ca-3dc3f541e3b7" />
 
 ---
-
-## Repository Structure
-
-```text
-├── .gitignore
-├── README.md
-├── PIDcontroller.slx          # Core Simulink model file
-└── docs/
-    ├── model_screenshot.png   # Block diagram image
-    └── step_response.png      # Scope output graph
