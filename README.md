@@ -9,8 +9,6 @@ A MATLAB/Simulink implementation of a closed-loop control system utilizing a Par
 
 The simulation models a standard negative feedback control loop consisting of the following key stages:
 
-![Simulink Model Architecture](docs/model_screenshot.png) **
-
 
 1. **Input Signal:** A step input $u(t)$ acting as the reference command/setpoint.
 2. **Error Detection:** A summing junction that calculates the instantaneous error signal, $e(t) = u(t) - y(t)$, where $y(t)$ is the plant output.
@@ -38,7 +36,8 @@ The simulation models a standard negative feedback control loop consisting of th
 
 ## Performance & Results
 
-![Step Response Output](docs/step_response.png) **
+<img width="1919" height="1018" alt="Screenshot 2026-06-03 140137" src="https://github.com/user-attachments/assets/d5af0ace-bbf2-4450-a4ca-3dc3f541e3b7" />
+
 
 The Scope block plots the system's dynamic tracking capabilities. The controller adjusts the transient response characteristics to ensure the third-order plant accurately tracks the step input command with minimal steady-state error.
 
