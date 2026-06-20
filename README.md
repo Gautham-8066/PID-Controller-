@@ -34,11 +34,8 @@ The simulation models a standard negative feedback control loop consisting of th
 ---
 
 ## Performance & Results
-
+The plot below shows the closed-loop step response captured by the Scope block, comparing the reference input command $u(t)$ (yellow) against the plant's actual output response $y(t)$ (blue).
 <img width="1919" height="1018" alt="Screenshot 2026-06-03 140137" src="https://github.com/user-attachments/assets/d5af0ace-bbf2-4450-a4ca-3dc3f541e3b7" />
-
-
-The Scope block plots the system's dynamic tracking capabilities. The controller adjusts the transient response characteristics to ensure the third-order plant accurately tracks the step input command with minimal steady-state error.
 
 ---
 
